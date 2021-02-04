@@ -168,3 +168,95 @@ header {
     }
 
 }
+
+
+.icon-tutorial {
+    color: white;
+}
+
+.background-icons {
+    border-radius: 50%;
+    width: 50%;
+    height: 23vh;
+    position: relative;
+    top: 0;
+    background:rgba(255,195,17,0.6);
+    margin: 0;
+}
+
+
+
+.tutoriales {
+    position: relative;
+}
+
+.info-tutorial {
+    position: relative;
+    top: -30%;
+    cursor: pointer;
+}
+
+.info-tutorial div h3 {
+    text-align: center;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.info-tutorial div p {
+    text-align: center;
+    color: gray;
+}
+
+@keyframes tutoriales
+{
+
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-2000px);
+        -ms-transform: translateX(-2000px);
+        transform: translateX(-2000px);
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: translateX(30px);
+        -ms-transform: translateX(30px);
+        transform: translateX(30px);
+    }
+
+    80% {
+        -webkit-transform: translateX(-10px);
+        -ms-transform: translateX(-10px);
+        transform: translateX(-10px);
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+}
+
+/* menu anumimado */
+
+.menu-sticky {
+    top: -50%;
+}
+
+#sticky-wrapper {
+    transition: 0.6s;
+}
+
+.list-header-fixed, .sign-in-fixed {
+    color: gray;
+    font-weight: 700;
+}
+
+.list-header-fixed:hover {
+    color: #ffc311;
+}
+.sign-in-fixed:hover {
+    color: #ffc311;
+}
