@@ -260,3 +260,7 @@ header {
 .sign-in-fixed:hover {
     color: #ffc311;
 }
+
+.secundaria-y-primaria {
+    background-color: green;
+}

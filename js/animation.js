@@ -18,7 +18,7 @@ window.addEventListener('scroll', function(){
     let goku = this.document.getElementById("menu-principal");
     let posicionObj1 = goku.getBoundingClientRect().bottom;
     console.log(posicionObj1);
-    let tamanhoPantalla = window.innerHeight/30;
+    let tamanhoPantalla = window.innerHeight/25;
 
     if(posicionObj1 < tamanhoPantalla ) {
         let menu_desplegable = document.getElementById("sticky-wrapper");
