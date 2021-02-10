@@ -603,3 +603,30 @@ hr {
     text-align: left;
 
 }
+
+
+/* <!--================================
+            PHONE Configurations
+    =================================--> */
+    
+@media (max-width: 768px) {
+
+}
+
+
+
+
+/* <!--================================
+            TABLE Configuration
+    =================================--> */
+
+@media (min-width: 768px) and (max-width: 992px) { 
+
+
+}
+
+@media (min-width: 992px) { 
+
+}
+
+
